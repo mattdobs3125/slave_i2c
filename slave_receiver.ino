@@ -38,7 +38,7 @@ void receiveEvent(int howMany) {
 //    delay(1000);
     char c = Wire.read();
     Serial.print(c);
-   if (c=="c")
+   if (c)
    {
     Serial.print("we 32323");
      digitalWrite(trigPin, LOW);
